@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { Page } from 'components/pages/Page';
+import Page from 'components/pages/Page';
 
 const App: FC = () => <Page />;
 
