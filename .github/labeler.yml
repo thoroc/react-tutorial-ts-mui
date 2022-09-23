@@ -1,0 +1,11 @@
+# Add 'test' label to any change to *.spec.js files within the source dir
+test:
+- src/**/*.spec.tsx
+
+# Add 'source' label to any change to src files within the source dir
+source:
+- any: ['src/**/*.tsx']
+
+# Add 'dependencies' label to any changes to the 'package.json' file
+dependencies:
+- package.json
