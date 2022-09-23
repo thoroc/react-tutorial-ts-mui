@@ -1,4 +1,4 @@
-import { render } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import App from './App';
 
 jest.mock('./components/pages/Page', () => () => (
@@ -8,8 +8,14 @@ jest.mock('./components/pages/Page', () => () => (
 describe('App component', () => {
   describe('When app is rendered', () => {
     it('should contains a Page component', () => {
-      const { queryByTestId } = render(<App />);
-      expect(queryByTestId('test-page')).toBeInTheDocument();
+      // Arrange
+      render(<App />);
+
+      // Act
+      const pageElement = screen.queryByTestId('test-page');
+
+      // Assert
+      expect(pageElement).toBeInTheDocument();
     });
   });
 });
