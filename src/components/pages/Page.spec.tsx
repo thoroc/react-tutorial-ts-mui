@@ -1,4 +1,4 @@
-import { render } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import Page from './Page';
 
 jest.mock('../templates/GenericTemplate', () => () => (
@@ -10,12 +10,27 @@ jest.mock('../templates/GenericTemplate', () => () => (
 describe('Page component', () => {
   describe('When page is rendered', () => {
     it('should contains a GenericTemplate component', () => {
-      const { queryByTestId } = render(<Page />);
-      expect(queryByTestId('test-game')).toBeInTheDocument();
+      // Arrange
+      render(<Page />);
+
+      // Act
+      const gameElement = screen.queryByTestId('test-game');
+
+      // Assert
+      expect(gameElement).toBeInTheDocument();
     });
+
     it('should contains a Game component', () => {
-      const { queryByTestId } = render(<Page />);
-      expect(queryByTestId('test-genericTemplate')).toBeInTheDocument();
+      // Arrange
+      render(<Page />);
+
+      // Act
+      const genericTemplateElement = screen.queryByTestId(
+        'test-genericTemplate',
+      );
+
+      // Assert
+      expect(genericTemplateElement).toBeInTheDocument();
     });
   });
 });
