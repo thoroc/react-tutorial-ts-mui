@@ -11,7 +11,7 @@
     "@material-ui/lab": "^5.0.0-alpha.27",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^12.1.5",
-    "@testing-library/user-event": "^12.1.10",
+    "@testing-library/user-event": "^14.4.3",
     "@types/jest": "^26.0.20",
     "@types/node": "^18.7.21",
     "@types/react": "^17.0.0",
