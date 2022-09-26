@@ -18,3 +18,7 @@ updates:
     # Specify labels for npm pull requests
     labels:
       - "dependencies"
+    ignore:
+        # ignore all patch updates
+      - dependency-name: "*"
+        update-types: ["version-update:semver-patch"]
