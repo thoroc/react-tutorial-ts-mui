@@ -3631,7 +3631,7 @@
   resolved "https://registry.yarnpkg.com/@storybook/mdx2-csf/-/mdx2-csf-1.0.0-next.8.tgz#b069d8948ec5691d0a7b799b918caa9ca14f38bd"
   integrity sha512-t2O5s/HHTH5evZVHgVtCWTZgMZ/CaqDu3xVGgjVbKeTvpPAbi0Waab5SSX8T9PG5jNDei/x+jpAVCcNMOHoWzg==
 
-"@storybook/node-logger@7.0.0", "@storybook/node-logger@^7.0.0":
+"@storybook/node-logger@7.0.0":
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/@storybook/node-logger/-/node-logger-7.0.0.tgz#9d58cfb886a54d4997c7b0231bce78d8e8ab4f47"
   integrity sha512-GjmHY9dSEFQ/BRsjhC63DsMr85Wfb/+R73ApJcGyc3sJDSfNil0JVgIsU7ZfCGV1ty0XhtvLd+jd+J1EAHi/dw==
@@ -3650,6 +3650,11 @@
     chalk "^4.1.0"
     npmlog "^5.0.1"
     pretty-hrtime "^1.0.3"
+
+"@storybook/node-logger@^7.1.0":
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/@storybook/node-logger/-/node-logger-7.1.0.tgz#077ccb57e50f613fd84563900994b82311667032"
+  integrity sha512-Mw5kfcqfW1YI4pqW4+Y/SgnjitEMoqVZdTBQxxA9lS6YOlkQqwmtIFu7or4W/ZCFaPX9dwgd171o870vsA2DlA==
 
 "@storybook/postinstall@7.0.0":
   version "7.0.0"
