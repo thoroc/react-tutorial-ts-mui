@@ -67,7 +67,7 @@
     "@storybook/node-logger": "^7.0.0",
     "@storybook/preset-create-react-app": "^7.1.0",
     "@storybook/react": "^7.1.0",
-    "@types/prettier": "^2.7.1",
+    "@types/prettier": "^3.0.0",
     "@types/stylelint": "^14.0.0",
     "@types/testing-library__jest-dom": "^5.14.5",
     "@typescript-eslint/eslint-plugin": "^5.61.0",
