@@ -4063,14 +4063,14 @@
   resolved "https://registry.yarnpkg.com/@storybook/postinstall/-/postinstall-7.3.0.tgz#3e383e1db64fb04b55b9695bb5b4160b955ec366"
   integrity sha512-/y7niDypQoAkskgllCo+DXuIf5Obq0E+EFTrIiCBQOma8zc31A2QYdyBYxGkSNXYawRReMqjiVNGMvrlZ5fv0w==
 
-"@storybook/preset-create-react-app@^7.3.0":
-  version "7.3.0"
-  resolved "https://registry.yarnpkg.com/@storybook/preset-create-react-app/-/preset-create-react-app-7.3.0.tgz#21ad493bc4d5fd272b6a1476745a3f928c0825be"
-  integrity sha512-hydo1z+0Uygpa1ltkwhIiWpW+Id9nx0WI/0s88ukPbR19ixIOn5T0vjLJPa1G1EQ7HvdgCDVX+97L72vEM41yg==
+"@storybook/preset-create-react-app@^7.4.0":
+  version "7.4.0"
+  resolved "https://registry.yarnpkg.com/@storybook/preset-create-react-app/-/preset-create-react-app-7.4.0.tgz#9c4f75c11ecb1792575d56c401a71443cf1d856f"
+  integrity sha512-nMYEFsnQJsq71GxCOg7W/N6DDqQpgIgXsmggmzlN67FNMxEiAR9lDculTzJj/5LW18vM5xxZEOrFxCH87SrJLg==
   dependencies:
     "@pmmmwh/react-refresh-webpack-plugin" "^0.5.1"
     "@storybook/react-docgen-typescript-plugin" "1.0.6--canary.9.0c3f3b7.0"
-    "@storybook/types" "7.3.0"
+    "@storybook/types" "7.4.0"
     "@types/babel__core" "^7.1.7"
     babel-plugin-react-docgen "^4.1.0"
     pnp-webpack-plugin "^1.7.0"
@@ -13780,6 +13780,13 @@ tar@^6.1.11:
     yallist "^4.0.0"
 
 telejson@^7.0.3, telejson@^7.2.0:
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/telejson/-/telejson-7.2.0.tgz#3994f6c9a8f8d7f2dba9be2c7c5bbb447e876f32"
+  integrity sha512-1QTEcJkJEhc8OnStBx/ILRu5J2p0GjvWsBx56bmZRqnrkdBMUe+nX92jxV+p3dB4CP6PZCdJMQJwCggkNBMzkQ==
+  dependencies:
+    memoizerific "^1.11.3"
+
+telejson@^7.2.0:
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/telejson/-/telejson-7.2.0.tgz#3994f6c9a8f8d7f2dba9be2c7c5bbb447e876f32"
   integrity sha512-1QTEcJkJEhc8OnStBx/ILRu5J2p0GjvWsBx56bmZRqnrkdBMUe+nX92jxV+p3dB4CP6PZCdJMQJwCggkNBMzkQ==
