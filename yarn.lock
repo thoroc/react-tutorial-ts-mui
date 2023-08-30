@@ -3736,19 +3736,19 @@
     "@storybook/global" "^5.0.0"
     "@storybook/preview-api" "7.3.0"
 
-"@storybook/addon-links@^7.3.0":
-  version "7.3.0"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-7.3.0.tgz#a5a6656886d40a410a67af9f4d73847af87459d9"
-  integrity sha512-CLYjhaSYDGX9Y8DNK1IDRwWg3dMREutu4e3uRB2sIVzs3QhF7cOKNWpojTwS4EJ3WxnBoVKIossMI6pjUn+EWg==
+"@storybook/addon-links@^7.4.0":
+  version "7.4.0"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-7.4.0.tgz#f10ba388143d0de75150a27e94241d5fb4dfba7e"
+  integrity sha512-lFj8fiokWKk3jx5YUQ4anQo1uCNDMP1y6nJ/92Y85vnOd1vJr3w4GlLy8eOWMABRE33AKLI5Yp6wcpWZDe7hhQ==
   dependencies:
-    "@storybook/client-logger" "7.3.0"
-    "@storybook/core-events" "7.3.0"
+    "@storybook/client-logger" "7.4.0"
+    "@storybook/core-events" "7.4.0"
     "@storybook/csf" "^0.1.0"
     "@storybook/global" "^5.0.0"
-    "@storybook/manager-api" "7.3.0"
-    "@storybook/preview-api" "7.3.0"
-    "@storybook/router" "7.3.0"
-    "@storybook/types" "7.3.0"
+    "@storybook/manager-api" "7.4.0"
+    "@storybook/preview-api" "7.4.0"
+    "@storybook/router" "7.4.0"
+    "@storybook/types" "7.4.0"
     prop-types "^15.7.2"
     ts-dedent "^2.0.0"
 
@@ -13780,6 +13780,13 @@ tar@^6.1.11:
     yallist "^4.0.0"
 
 telejson@^7.0.3, telejson@^7.2.0:
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/telejson/-/telejson-7.2.0.tgz#3994f6c9a8f8d7f2dba9be2c7c5bbb447e876f32"
+  integrity sha512-1QTEcJkJEhc8OnStBx/ILRu5J2p0GjvWsBx56bmZRqnrkdBMUe+nX92jxV+p3dB4CP6PZCdJMQJwCggkNBMzkQ==
+  dependencies:
+    memoizerific "^1.11.3"
+
+telejson@^7.2.0:
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/telejson/-/telejson-7.2.0.tgz#3994f6c9a8f8d7f2dba9be2c7c5bbb447e876f32"
   integrity sha512-1QTEcJkJEhc8OnStBx/ILRu5J2p0GjvWsBx56bmZRqnrkdBMUe+nX92jxV+p3dB4CP6PZCdJMQJwCggkNBMzkQ==
