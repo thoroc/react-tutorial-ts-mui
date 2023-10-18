@@ -3825,10 +3825,29 @@
     telejson "^7.2.0"
     tiny-invariant "^1.3.1"
 
+"@storybook/channels@7.5.0":
+  version "7.5.0"
+  resolved "https://registry.yarnpkg.com/@storybook/channels/-/channels-7.5.0.tgz#761dedb242897dfb12a1cb4e7efa402a70beed56"
+  integrity sha512-/7QJS1UA7TX3uhZqCpjv4Ib8nfMnDOJrBWvjiXiUONaRcSk/he5X+W1Zz/c7dgt+wkYuAh+evjc7glIaBhVNVQ==
+  dependencies:
+    "@storybook/client-logger" "7.5.0"
+    "@storybook/core-events" "7.5.0"
+    "@storybook/global" "^5.0.0"
+    qs "^6.10.0"
+    telejson "^7.2.0"
+    tiny-invariant "^1.3.1"
+
 "@storybook/client-logger@7.4.0":
   version "7.4.0"
   resolved "https://registry.yarnpkg.com/@storybook/client-logger/-/client-logger-7.4.0.tgz#f90aa5ee29d540074f6e4890bae71836ac87273c"
   integrity sha512-4pBnf7+df1wXEVcF1civqxbrtccGGHQkfWQkJo49s53RXvF7SRTcif6XTx0V3cQV0v7I1C5mmLm0LNlmjPRP1Q==
+  dependencies:
+    "@storybook/global" "^5.0.0"
+
+"@storybook/client-logger@7.5.0":
+  version "7.5.0"
+  resolved "https://registry.yarnpkg.com/@storybook/client-logger/-/client-logger-7.5.0.tgz#0d20159b1f3d88b8561453bffe310af929edce99"
+  integrity sha512-JV7J9vc69f9Il4uW62NIeweUU7O38VwFWxtCkhd0bcBA/9RG0go4M2avzxYYEAe9kIOX9IBBk8WGzMacwW4gKQ==
   dependencies:
     "@storybook/global" "^5.0.0"
 
@@ -3888,6 +3907,13 @@
   version "7.4.0"
   resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-7.4.0.tgz#0d50d254d65a678065d5906ac1dcab64396f2f6a"
   integrity sha512-JavEo4dw7TQdF5pSKjk4RtqLgsG2R/eWRI8vZ3ANKa0ploGAnQR/eMTfSxf6TUH3ElBWLJhi+lvUCkKXPQD+dw==
+  dependencies:
+    ts-dedent "^2.0.0"
+
+"@storybook/core-events@7.5.0":
+  version "7.5.0"
+  resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-7.5.0.tgz#c2a4ff3afbcd2c42b18cb382456a58f987e79c35"
+  integrity sha512-FsD+clTzayqprbVllnL8LLch+uCslJFDgsv7Zh99/zoi7OHtHyauoCZkdLBSiDzgc84qS41dY19HqX1/y7cnOw==
   dependencies:
     ts-dedent "^2.0.0"
 
@@ -3974,14 +4000,14 @@
   resolved "https://registry.yarnpkg.com/@storybook/postinstall/-/postinstall-7.4.0.tgz#81f3bef31b566e26d616f9c3ce567f07ff143cc7"
   integrity sha512-ZVBZggqkuj7ysfuHSCd/J7ovWV06zY9uWf+VU+Zw7ZeojDT8QHFrCurPsN7D9679j9vRU1/kSzqvAiStALS33g==
 
-"@storybook/preset-create-react-app@^7.4.0":
-  version "7.4.0"
-  resolved "https://registry.yarnpkg.com/@storybook/preset-create-react-app/-/preset-create-react-app-7.4.0.tgz#9c4f75c11ecb1792575d56c401a71443cf1d856f"
-  integrity sha512-nMYEFsnQJsq71GxCOg7W/N6DDqQpgIgXsmggmzlN67FNMxEiAR9lDculTzJj/5LW18vM5xxZEOrFxCH87SrJLg==
+"@storybook/preset-create-react-app@^7.5.0":
+  version "7.5.0"
+  resolved "https://registry.yarnpkg.com/@storybook/preset-create-react-app/-/preset-create-react-app-7.5.0.tgz#d76c97ce9f985f9493d7a81d9bd824b4432f1ebd"
+  integrity sha512-aFrQVx6bQhbD13dl5r9nBpb4vIiLxc9+RosOrcVMfTGBWJeonk5wZ/V44xiJTtUi442nCE8n6H5epr0dcsLYlw==
   dependencies:
     "@pmmmwh/react-refresh-webpack-plugin" "^0.5.1"
     "@storybook/react-docgen-typescript-plugin" "1.0.6--canary.9.0c3f3b7.0"
-    "@storybook/types" "7.4.0"
+    "@storybook/types" "7.5.0"
     "@types/babel__core" "^7.1.7"
     babel-plugin-react-docgen "^4.1.0"
     pnp-webpack-plugin "^1.7.0"
@@ -4080,6 +4106,16 @@
     "@types/babel__core" "^7.0.0"
     "@types/express" "^4.7.0"
     "@types/react" "^16.14.34"
+    file-system-cache "2.3.0"
+
+"@storybook/types@7.5.0":
+  version "7.5.0"
+  resolved "https://registry.yarnpkg.com/@storybook/types/-/types-7.5.0.tgz#a3e862056e68398787ce71c5764b9ff124f55d40"
+  integrity sha512-fiOUnHKFi/UZSfvc53F0WEQCiquqcSqslL3f5EffwQRiXfeXlGavJb0kU03BO+CvOXcliRn6qKSF2dL0Rgb7Xw==
+  dependencies:
+    "@storybook/channels" "7.5.0"
+    "@types/babel__core" "^7.0.0"
+    "@types/express" "^4.7.0"
     file-system-cache "2.3.0"
 
 "@surma/rollup-plugin-off-main-thread@^2.2.3":
