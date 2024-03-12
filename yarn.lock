@@ -4066,10 +4066,15 @@
   resolved "https://registry.yarnpkg.com/@storybook/node-logger/-/node-logger-7.6.0.tgz#3f59d32e58dbc243e8178734a62cb1cebd397536"
   integrity sha512-Z+wVmjnTMhMG2ydL4T8F+gf/awvuAv3IAzH6T4D5UgjmdABqxVqWNAAF+Mgp48TUAGxiJCowzI6sGDg3iNJx2w==
 
-"@storybook/node-logger@7.6.1", "@storybook/node-logger@^7.6.1":
+"@storybook/node-logger@7.6.1":
   version "7.6.1"
   resolved "https://registry.yarnpkg.com/@storybook/node-logger/-/node-logger-7.6.1.tgz#57eea244b63670b9908b077d1e7f72d78b438637"
   integrity sha512-aHQUfWJBJBBof4WfNN552I76QZmMwLHeerI+98NE3IphRHlM+OW96crKXKvX7DWaN5otgxdXroZFpEABKhHIwQ==
+
+"@storybook/node-logger@^8.0.0":
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/@storybook/node-logger/-/node-logger-8.0.0.tgz#d1b2d1216f268f340b39a5aafea55fa1ff4bd3ef"
+  integrity sha512-C/sMNQqCIYVtJaLpe92RSkPgW3GXcWp6QeH5+glfP42kh+G9axxnEJJ996tyAnNQRzUuI+Eh+B7ytPZU1/WseQ==
 
 "@storybook/postinstall@7.6.1":
   version "7.6.1"
