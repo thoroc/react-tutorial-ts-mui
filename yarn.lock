@@ -3676,12 +3676,12 @@
     telejson "^7.2.0"
     ts-dedent "^2.0.0"
 
-"@storybook/node-logger@8.0.1", "@storybook/node-logger@^8.0.0":
+"@storybook/node-logger@8.0.1":
   version "8.0.1"
   resolved "https://registry.yarnpkg.com/@storybook/node-logger/-/node-logger-8.0.1.tgz#e27e5796c462a12331fcf71e01df6db34cea848e"
   integrity sha512-uYWKSz9NhLOe2O60sJ4UPT1nzvbH0oR/YjK+OP3B4BySa6e195xY/5Uhou4lEaPSNU/0XXaLHCYeXjqeBjZopA==
 
-"@storybook/node-logger@8.1.0":
+"@storybook/node-logger@8.1.0", "@storybook/node-logger@^8.1.0":
   version "8.1.0"
   resolved "https://registry.yarnpkg.com/@storybook/node-logger/-/node-logger-8.1.0.tgz#66c4fc81f15e5b7ba65c0b79e7c7388d5001b00f"
   integrity sha512-oCUp2V+selKVCNE3RrbFoP6lW0HYtX0N8NLsMbuxnVRIg6BC4Tn6OJ0azIWjJWpIf60A80wOUKmlE36Q32ANYg==
